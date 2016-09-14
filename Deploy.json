@@ -10,9 +10,9 @@
 			"Type": "Text"
 		},
 		{
-			"Name": "Reciever-Number",
-			"DisplayName": "Reciever Number",
-			"Description": "Recieve Phone Number",
+			"Name": "Receiver-Number",
+			"DisplayName": "Receiver Number",
+			"Description": "Receiver Phone Number",
 			"Type": "Text"
 		},
 		{
