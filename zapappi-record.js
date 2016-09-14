@@ -1,4 +1,5 @@
 // Answer the Call
+var callerID = config.GetKeyValue("Caller-ID")
 call.Answer();
 //Ask caller to say there name and record response
 call.Say("Please say your name after the tone, then press the hash key.");
@@ -12,7 +13,7 @@ var nameRec = call.Record({
 //Call callee with Timeout, CallerId, Call Limit, Call Limit Warning
 var rtn = call.Dial(["tel:callee@mydomain.com"], {
         Timeout: 30,
-        CallerID: 03303203333,
+        CallerID: callerID,
         Limit: 20,
         LimitWarning:10,
         //If LimitWarning reached proceed with function
