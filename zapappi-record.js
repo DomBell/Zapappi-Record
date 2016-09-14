@@ -1,6 +1,6 @@
 // Answer the Call
 var callerID = config.GetKeyValue("Caller-ID");
-var receiverID = config.GetKeyValue("Receiver-Number");
+var receiverNum = config.GetKeyValue("Receiver-Number");
 var provider = config.GetKeyValue("Provider");
 call.Answer();
 //Ask caller to say there name and record response
@@ -13,7 +13,7 @@ var nameRec = call.Record({
     EscapeDigit: "#"
 });
 //Call callee with Timeout, CallerId, Call Limit, Call Limit Warning
-var rtn = call.Dial(["tel:" + receiverID + "@" + provider], {
+var rtn = call.Dial(["tel:" + receiverNum + "@" + provider], {
         Timeout: 30,
         CallerID: callerID,
         Limit: 20,
