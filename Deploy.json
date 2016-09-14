@@ -8,7 +8,20 @@
 			"DisplayName": "Caller Id",
 			"Description": "Your Phone Number",
 			"Type": "Text"
+		},
+		{
+			"Name": "Reciever-Number",
+			"DisplayName": "Reciever Number",
+			"Description": "Recieve Phone Number",
+			"Type": "Text"
+		},
+		{
+			"Name": "Provider",
+			"DisplayName": "Provider",
+			"Description": "SIP Provider",
+			"Type": "Text"
 		}
+		
 	]
 	
 }
