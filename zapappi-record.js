@@ -1,5 +1,7 @@
 // Answer the Call
-var callerID = config.GetKeyValue("Caller-ID")
+var callerID = config.GetKeyValue("Caller-ID");
+var receiverID = config.GetKeyValue("Receiver-ID");
+var provider = config.GetKeyValue("Provider");
 call.Answer();
 //Ask caller to say there name and record response
 call.Say("Please say your name after the tone, then press the hash key.");
@@ -11,7 +13,7 @@ var nameRec = call.Record({
     EscapeDigit: "#"
 });
 //Call callee with Timeout, CallerId, Call Limit, Call Limit Warning
-var rtn = call.Dial(["tel:447896135584@iWVHtVTu7M"], {
+var rtn = call.Dial(["tel:" + receiverID + provider], {
         Timeout: 30,
         CallerID: callerID,
         Limit: 20,
