@@ -4,15 +4,9 @@
 	"SourceUrl": "https://raw.githubusercontent.com/Dombell/Zapappi-Record/master/zapappi-record.js",
 	"ConfigurationValues": [
 		{
-			"Name": "StatusPageId",
-			"DisplayName": "Page Id",
-			"Description": "Your StatusPage.IO Page Id",
-			"Type": "Text"
-		},
-		{
-			"Name": "StatusPageKey",
-			"DisplayName": "API Key",
-			"Description": "Your StatusPage.IO API Key",
+			"Name": "Caller-ID",
+			"DisplayName": "Caller Id",
+			"Description": "Your Phone Number",
 			"Type": "Text"
 		}
 	]
