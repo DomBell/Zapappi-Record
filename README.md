@@ -1,5 +1,5 @@
 # Zapappi-Record [![Deploy to Zapappi](https://portal.zapappi.com/content/images/deploy_to_zapappi.png)](https://portal.zapappi.com/Portal/Application/Create?manifestUrl=https://raw.githubusercontent.com/dombell/zapappi-record/master/deploy.json)
-A Zapappi Application (ZapApp) that gives statuspage.io information through a phone call. Requires a statuspage.io account.
+A Zapappi Application (ZapApp) that records the users voice
 
 ## How To Use
 1. Signup for a free Zapappi Account
