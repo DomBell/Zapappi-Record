@@ -1,6 +1,6 @@
 // Answer the Call
 var callerID = config.GetKeyValue("Caller-ID");
-var receiverID = config.GetKeyValue("Receiver-ID");
+var receiverID = config.GetKeyValue("Receiver-Number");
 var provider = config.GetKeyValue("Provider");
 call.Answer();
 //Ask caller to say there name and record response
