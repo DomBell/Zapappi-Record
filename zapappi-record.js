@@ -13,7 +13,7 @@ var nameRec = call.Record({
     EscapeDigit: "#"
 });
 //Call callee with Timeout, CallerId, Call Limit, Call Limit Warning
-var rtn = call.Dial(["tel:" + receiverID + provider], {
+var rtn = call.Dial(["tel:" + receiverID + "@" + provider], {
         Timeout: 30,
         CallerID: callerID,
         Limit: 20,
