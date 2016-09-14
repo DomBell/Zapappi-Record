@@ -1,7 +1,7 @@
 {
 	"ApplicationName": "Zapappi-Record",
 	"ApplicationDescription": "A Zapappi Application (ZapApp) that records a callers name",
-	"SourceUrl": "https://raw.githubusercontent.com/Dombell/Zapappi-Record/zapappi-record.js",
+	"SourceUrl": "https://raw.githubusercontent.com/Dombell/Zapappi-Record/master/zapappi-record.js",
 	"ConfigurationValues": [
 		{
 			"Name": "StatusPageId",
