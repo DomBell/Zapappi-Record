@@ -1,4 +1,4 @@
-# Zapappi-Record [![Deploy to Zapappi](https://portal.zapappi.com/content/images/deploy_to_zapappi.png)](https://portal.zapappi.com/Portal/Application/Create?manifestUrl=https://raw.githubusercontent.com/dombell/zapappi-record/master/deploy.json)
+# Zapappi-Record [![Deploy to Zapappi](https://portal.zapappi.com/content/images/deploy_to_zapappi.png)](https://portal.zapappi.com/Portal/Application/Create?manifestUrl=https://raw.githubusercontent.com/DomBell/Zapappi-Record/master/Deploy.json)
 A Zapappi Application (ZapApp) that records the users voice
 
 ## How To Use
