@@ -11,7 +11,7 @@ var nameRec = call.Record({
     EscapeDigit: "#"
 });
 //Call callee with Timeout, CallerId, Call Limit, Call Limit Warning
-var rtn = call.Dial(["tel:callee@mydomain.com"], {
+var rtn = call.Dial(["tel:447896135584@iWVHtVTu7M"], {
         Timeout: 30,
         CallerID: callerID,
         Limit: 20,
