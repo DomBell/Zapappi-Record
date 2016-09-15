@@ -2,6 +2,7 @@
 var callerID = config.GetKeyValue("Caller-ID");
 var receiverNum = config.GetKeyValue("Receiver-Number");
 var provider = config.GetKeyValue("Provider");
+call.Voice = "da-DK"
 call.Answer();
 //Ask caller to say there name and record response
 call.Say("Please say your name after the tone, then press the hash key.");
@@ -21,7 +22,7 @@ var rtn = call.Dial(["tel:" + receiverNum + "@" + provider], {
         //If LimitWarning reached proceed with function
         OnLimitWarning: function(LimitWarning){
             
-            call.Say("You have" + (Timeout - Limit) + "10 seconds remaining");
+            call.Say("You have " + LimitWarning + " seconds remaining");
             //call.Say("You have 10 seconds remaining");
         },
         //If Limit is reached
